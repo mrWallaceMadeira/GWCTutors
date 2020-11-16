@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import snail from './assets/snail.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={snail} className="snail-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to <code>Snail Tutors</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.madeira.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Madeira Home
         </a>
       </header>
     </div>
